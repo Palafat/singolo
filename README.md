@@ -1,2 +1,2 @@
 # singolo
-singolol_homework
+https://palafat.github.io/singolo/singolo1.html

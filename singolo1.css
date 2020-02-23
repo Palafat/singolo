@@ -10,15 +10,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* .wrapper {
-  max-width: 1020px;
-  margin: 0 auto;
-  padding-top: 0px;
-  padding-right: 8px;
-  padding-left: 35px;
-  box-sizing: border-box;
-} */
-
 /* header */
 
 .header {
@@ -66,8 +57,6 @@ body {
   padding-left: 14px;
   padding-top: 7px;
   margin-right: 16px;
-  /* display: inline-block; */
-  /* margin: 43px 10px; */
   position: relative;
   font-weight: 700;
   font-size: 12px;

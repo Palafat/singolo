@@ -43,6 +43,8 @@ body {
   font-weight: 550;
 }
 
+/* navigation_bar */
+
 .nav {
   text-transform: uppercase;
   height: 90px;
@@ -140,7 +142,8 @@ body {
   height: 7px;
 }
 
-/* footer */
+/* footer_services */
+
 
 .our_services {
   width: 100%;
@@ -217,6 +220,7 @@ h2.services {
   color: #ffffff;
   height: 7px;
 }
+
 
 @media screen and (max-width:1600px) {
   .wrapper {

@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1301px) {
+  .wrapper {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-right: 55px;
+    padding-left: 55px;
+    box-sizing: border-box;
+  }
+}
+
+.portfolio {
+  background: #2d303a;
+  color: #666d89;
+  height: 875px;
+  width: 100%;
+  letter-spacing: 0.8px;
+}
+
+.header_portfolio {
+  padding-top: 85px;
+  padding-bottom: 21px;
+  font-size: 30px;
+  line-height: 18px;
+}
+
+.about_header {
+  padding-top: 70px;
+  padding-bottom: 28px;
+  font-size: 30px;
+  line-height: 18px;
+}
+
+.header_text {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  padding-top: 8px;
+}
+
+.about_text {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+}
+
+.porfolio_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 286px;
+  flex-wrap: wrap;
+}
+
+.portf_nav_link {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #767e9e;
+  text-decoration: none;
+  border: 1px solid #767e9e;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 5px 0px 5px;
+  letter-spacing: 0.2px;
+  transition: color 0.2s linear;
+}
+
+.portf_nav_link:hover {
+  color: #dedede;
+  border-color: #c5c5c5;
+}
+
+.portfolio_items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_icon {
+  width: 219px;
+  height: 190px;
+  overflow: hidden;
+  margin: 10px 20px 10px 0px;
+}
+
+.hr_portfolio {
+  border: 5px solid #323746;
+}
+
+.about_us {
+  color: #666d89;
+  background: #f2f2f2;
+}
+
+.team {
+  margin-top: 52px;
+}
+
+.team_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team_item {
+  width: 33.33333%;
+}
+
+.team_photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 13px;
+}
+
+.team_name {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+}
+
+.team_text {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+/* Social */
+
+.team_social {
+  display: flex;
+  margin-bottom: 67px;
+}
+
+.social_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+
+  border: 1px solid #717791;
+  border-radius: 50%;
+
+  transition: background-color 0.2s linear;
+}
+
+.social_link:hover {
+  background-color: #e8ecee;
+}
+
+.social_link:hover .social_icon {
+  fill: blue;
+}
+
+.social_icon {
+  display: block;
+  height: 15px;
+  fill: #666d89;
+  transition: fill 0.2s linear;
+}
+
+.hr_about {
+  border: 5px solid #ffffff;
+}
+
+@media screen and (min-width: 1301px) {
+  .portfolio_icon {
+    width: 23%;
+    height: 190px;
+  }
+}

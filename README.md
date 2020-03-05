@@ -1,2 +1,3 @@
 # singolo
-https://palafat.github.io/singolo/singolo1.html
+
+https://palafat.github.io/singolo/index.html
